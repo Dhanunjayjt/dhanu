@@ -1,0 +1,27 @@
+root@ipq95xx64-rdk-broadband:/rdklogs/logs# cat S[ 5328.620778] snmp_subagent[174127]: Warning: Failed to connect to the agentx master agent (tcp:127.0.0.1:705):
+NMP.txt.0
+230410-14:22:25.377910 [mod=SNMP, lvl=INFO] [tid=174127] rtConnection.c:1133 rtConnection_SendRequest TIMEOUT
+230410-14:22:25.377995 [mod=SNMP, lvl=ERROR] [tid=174127] rbus_core.c:1029 Request timed out. Error code: 0x3e8
+230410-14:22:25.378013 [mod=SNMP, lvl=ERROR] [tid=174127] CcspBaseIf_getParameterValues_rbus rbus_invokeRemoteMethod: for param[0]=Device.UPnP.Device.UPnPIGD failed with Err: 191
+230410-14:22:25.378027 [mod=SNMP, lvl=WARN] [tid=174127] RDKB_SNMP : Failed to get parameter value for 'Device.UPnP.Device.UPnPIGD'
+230410-14:22:25.378038 [mod=SNMP, lvl=ERROR] [tid=174127] Failed to get value of 'Device.UPnP.Device.UPnPIGD'
+230410-14:22:25.378443 [mod=SNMP, lvl=WARN] [tid=174127] No one DM param name is configured, no way to cache.
+230410-14:22:25.378519 [mod=SNMP, lvl=INFO] [tid=174127] Enter 'tableGroupCacheFree' of table 'ipv6PingServerTable'
+230410-14:22:25.378538 [mod=SNMP, lvl=INFO] [tid=174127] Enter 'tableGroupCacheFree' of table 'ipv4PingServerTable'
+230410-14:22:25.378554 [mod=SNMP, lvl=INFO] [tid=174127] Enter 'tableGroupCacheFree' of table 'rdkbRgDeviceIapdTable'
+230410-14:22:25.378565 [mod=SNMP, lvl=INFO] [tid=174127] Enter 'tableGroupCacheFree' of table 'rdkbRgDeviceIanaTable'
+230410-14:22:25.378595 [mod=SNMP, lvl=INFO] [tid=174127] Enter 'tableGroupCacheFree' of table 'rdkbRgDot11BandSteeringBSTable'
+230410-14:22:25.378613 [mod=SNMP, lvl=INFO] [tid=174127] Enter 'tableGroupCacheFree' of table 'rdkbRgDot11nExtTable'
+230410-14:22:25.378632 [mod=SNMP, lvl=INFO] [tid=174127] Enter 'tableGroupCacheFree' of table 'rdkbRgDot11ExtMgmtTable'
+230410-14:22:25.378653 [mod=SNMP, lvl=INFO] [tid=174127] Enter 'tableGroupCacheFree' of table 'rdkbRgDot11ClientTable'
+230410-14:22:25.378664 [mod=SNMP, lvl=INFO] [tid=174127] Enter 'tableGroupCacheFree' of table 'rdkbRgDot11Wep128BitKeyTable'
+230410-14:22:25.378990 [mod=SNMP, lvl=INFO] [tid=174127] Enter 'tableGroupCacheFree' of table 'rdkbRgDot11Wep64BitKeyTable'
+230410-14:22:25.379298 [mod=SNMP, lvl=INFO] [tid=174127] Enter 'tableGroupCacheFree' of table 'rdkbRgDot11WepTable'
+230410-14:22:25.379381 [mod=SNMP, lvl=INFO] [tid=174127] Enter 'tableGroupCacheFree' of table 'rdkbRgDot11RadiusTable'
+230410-14:22:25.379499 [mod=SNMP, lvl=INFO] [tid=174127] Enter 'tableGroupCacheFree' of table 'rdkbRgDot11WpaTable'
+230410-14:22:25.379582 [mod=SNMP, lvl=INFO] [tid=174127] Enter 'tableGroupCacheFree' of table 'rdkbRgDot11AccessMacTable'
+230410-14:22:25.379594 [mod=SNMP, lvl=INFO] [tid=174127] Enter 'tableGroupCacheFree' of table 'rdkbRgDot11BssTable'
+230410-14:22:25.379712 [mod=SNMP, lvl=WARN] [tid=174127] No one DM param name is configured, no way to cache.
+230410-14:22:25.379794 [mod=SNMP, lvl=WARN] [tid=174127] No one DM param name is configured, no way to cache.
+230410-14:23:25.388848 [mod=SNMP, lvl=INFO] [tid=174127] Enter 'tableGroupCacheFree' of table 'rdkbRgIpMgmtLanTable'
+

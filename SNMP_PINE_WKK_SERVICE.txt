@@ -1,0 +1,23 @@
+root@ipq95xx64-rdk-broadband:/# systemctl status snmpd
+* snmpd.service - Simple Network Management Protocol (SNMP) Daemon.
+     Loaded: loaded (/lib/systemd/system/snmpd.service; enabled; vendor preset: enabled)
+     Active: active (running) since Mon 2023-04-10 12:59:59 UTC; 1h 34min ago
+   Main PID: 577 (snmpd)
+      Tasks: 1 (limit: 2173)
+     Memory: 11.3M
+     CGroup: /system.slice/snmpd.service
+             `-577 /usr/sbin/snmpd -Ls0-6d -a -f
+
+Apr 10 12:59:59 ipq95xx64-rdk-broadband systemd[1]: Starting Simple Network Management Protocol (SNMP) Daemon....
+Apr 10 12:59:59 ipq95xx64-rdk-broadband systemd[1]: Started Simple Network Management Protocol (SNMP) Daemon..
+root@ipq95xx64-rdk-broadband:/# systemctl status snmpSubAgent
+* snmpSubAgent.service - SNMP Subagent service
+     Loaded: bad-setting (Reason: Unit snmpSubAgent.service has a bad unit file setting.)
+     Active: inactive (dead)
+---------------------------------------------------------------------------------
+
+root@ipq95xx64-rdk-broadband:/# systemctl status snmpSubAgent
+* snmpSubAgent.service - SNMP Subagent service
+     Loaded: bad-setting (Reason: Unit snmpSubAgent.service has a bad unit file setting.)
+     Active: inactive (dead)
+

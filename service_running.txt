@@ -1,0 +1,36 @@
+root@ipq95xx64-rdk-broadband:/lib/systemd/system# systemctl status snmpd                                                                                                                                   
+* snmpd.service - Simple Network Management Protocol (SNMP) Daemon.
+     Loaded: loaded (/lib/systemd/system/snmpd.service; enabled; vendor preset: enabled)
+     Active: active (running) since Mon 2023-04-10 16:16:26 UTC; 18s ago
+   Main PID: 381749 (snmpd)
+      Tasks: 1 (limit: 2173)
+     Memory: 4.7M
+     CGroup: /system.slice/snmpd.service
+             `-381749 /usr/sbin/snmpd -f -C -c /usr/ccsp/snmp/snmpd.conf -M /usr/share/snmp/mibs -Le
+
+Apr 10 16:16:26 ipq95xx-64-rdk-broadband systemd[1]: Starting Simple Network Management Protocol (SNMP) Daemon....
+Apr 10 16:16:26 ipq95xx-64-rdk-broadband snmpd[381749]: Turning on AgentX master support.
+Apr 10 16:16:26 ipq95xx-64-rdk-broadband snmpd[381749]: A SNMP version other than 3 was requested with (D)TLS; using 3 anyways
+Apr 10 16:16:26 ipq95xx-64-rdk-broadband snmpd[381749]: A SNMP version other than 3 was requested with (D)TLS; using 3 anyways
+Apr 10 16:16:26 ipq95xx-64-rdk-broadband snmpd[381749]: A SNMP version other than 3 was requested with (D)TLS; using 3 anyways
+Apr 10 16:16:26 ipq95xx-64-rdk-broadband snmpd[381749]: A SNMP version other than 3 was requested with (D)TLS; using 3 anyways
+Apr 10 16:16:26 ipq95xx-64-rdk-broadband snmpd[381749]: NET-SNMP version 5.8
+Apr 10 16:16:26 ipq95xx-64-rdk-broadband systemd[1]: Started Simple Network Management Protocol (SNMP) Daemon..
+---------------------------------------------------------------------------------------------------
+root@ipq95xx64-rdk-broadband:/lib/systemd/system# systemctl status snmpSubAgent
+* snmpSubAgent.service - SNMP Subagent service
+     Loaded: loaded (/lib/systemd/system/snmpSubAgent.service; enabled; vendor preset: enabled)
+     Active: active (running) since Mon 2023-04-10 16:16:32 UTC; 57s ago
+   Main PID: 381952 (snmp_subagent)
+      Tasks: 3 (limit: 2173)
+     Memory: 4.1M
+     CGroup: /system.slice/snmpSubAgent.service
+             `-381952 /usr/bin/snmp_subagent &
+
+Apr 10 16:16:32 ipq95xx-64-rdk-broadband systemd[1]: Started SNMP Subagent service.
+Apr 10 16:16:32 ipq95xx-64-rdk-broadband snmp_subagent[381952]: rdk_dyn_log_initg_dl_socket = 7 __progname = snmp_subagent
+Apr 10 16:16:32 ipq95xx-64-rdk-broadband snmp_subagent[381952]: unknown snmp version 193
+Apr 10 16:16:32 ipq95xx-64-rdk-broadband snmp_subagent[381952]: NET-SNMP version 5.8 AgentX subagent connected
+Apr 10 16:16:32 ipq95xx-64-rdk-broadband snmp_subagent[381952]: PID path is /var/tmp/snmp_subagent_v2.pid
+Apr 10 16:16:32 ipq95xx-64-rdk-broadband snmp_subagent[381952]: ccsp-snmp-subagent is up and running.
+

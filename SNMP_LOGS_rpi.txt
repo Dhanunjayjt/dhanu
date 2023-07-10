@@ -1,0 +1,49 @@
+230428-09:14:11.536123 [mod=SNMP, lvl=INFO] [tid=1875] L2ogreSourceIf last 4: 12.1.5.2
+230428-09:14:11.536189 [mod=SNMP, lvl=WARN] [tid=1875] Instance number 2 are not for Hotspot SSID
+230428-09:14:11.536285 [mod=SNMP, lvl=INFO] [tid=1875] L2ogreSourceIf last 4: 12.1.5.3
+230428-09:14:11.536353 [mod=SNMP, lvl=WARN] [tid=1875] Instance number 3 are not for Hotspot SSID
+230428-09:14:11.536449 [mod=SNMP, lvl=INFO] [tid=1875] L2ogreSourceIf last 4: 12.1.5.4
+230428-09:14:11.536516 [mod=SNMP, lvl=WARN] [tid=1875] Instance number 4 are not for Hotspot SSID
+230428-09:14:11.536733 [mod=SNMP, lvl=INFO] [tid=1875] L2ogreSourceIf last 4: 12.1.5.5
+230428-09:14:11.536842 [mod=SNMP, lvl=INFO] [tid=1875] L2ogreSourceIf last 4: 12.1.6.1
+230428-09:14:11.536911 [mod=SNMP, lvl=WARN] [tid=1875] Instance number 1 are not for Hotspot SSID
+230428-09:14:11.537007 [mod=SNMP, lvl=INFO] [tid=1875] L2ogreSourceIf last 4: 12.1.6.2
+230428-09:14:11.537074 [mod=SNMP, lvl=WARN] [tid=1875] Instance number 2 are not for Hotspot SSID
+230428-09:14:11.537170 [mod=SNMP, lvl=INFO] [tid=1875] L2ogreSourceIf last 4: 12.1.6.3
+230428-09:14:11.537238 [mod=SNMP, lvl=WARN] [tid=1875] Instance number 3 are not for Hotspot SSID
+230428-09:14:11.537333 [mod=SNMP, lvl=INFO] [tid=1875] L2ogreSourceIf last 4: 12.1.6.4
+230428-09:14:11.537400 [mod=SNMP, lvl=WARN] [tid=1875] Instance number 4 are not for Hotspot SSID
+230428-09:14:11.537495 [mod=SNMP, lvl=INFO] [tid=1875] L2ogreSourceIf last 4: 12.1.6.5
+230428-09:14:11.539111 [mod=SNMP, lvl=INFO] [tid=1875] L2ogreSourceIf last 4: 12.1.6.6
+230428-09:14:11.541334 [mod=SNMP, lvl=INFO] [tid=1875] L2ogreSourceIf last 4: 12.1.6.7
+230428-09:14:11.541460 [mod=SNMP, lvl=WARN] [tid=1875] Instance number 7 are not for Hotspot SSID
+230428-09:14:11.541571 [mod=SNMP, lvl=INFO] [tid=1875] L2ogreSourceIf last 4: 12.1.6.8
+230428-09:14:11.541643 [mod=SNMP, lvl=WARN] [tid=1875] Instance number 8 are not for Hotspot SSID
+230428-09:14:11.541743 [mod=SNMP, lvl=INFO] [tid=1875] L2ogreSourceIf last 4: 12.1.6.9
+230428-09:14:11.541812 [mod=SNMP, lvl=WARN] [tid=1875] Instance number 9 are not for Hotspot SSID
+230428-09:14:11.541914 [mod=SNMP, lvl=INFO] [tid=1875] L2ogreSourceIf last 4: 12.1.6.10
+230428-09:14:11.541983 [mod=SNMP, lvl=WARN] [tid=1875] Instance number 10 are not for Hotspot SSID
+230428-09:14:11.542080 [mod=SNMP, lvl=INFO] [tid=1875] L2ogreSourceIf last 4: 12.1.6.11
+230428-09:14:11.542153 [mod=SNMP, lvl=WARN] [tid=1875] Instance number 11 are not for Hotspot SSID
+230428-09:14:11.542254 [mod=SNMP, lvl=INFO] [tid=1875] L2ogreSourceIf last 4: 12.1.6.12
+230428-09:14:11.542338 [mod=SNMP, lvl=WARN] [tid=1875] Instance number 12 are not for Hotspot SSID
+230428-09:14:11.542436 [mod=SNMP, lvl=INFO] [tid=1875] L2ogreSourceIf last 4: 12.1.6.13
+230428-09:14:11.542505 [mod=SNMP, lvl=WARN] [tid=1875] Instance number 13 are not for Hotspot SSID
+230428-09:14:11.542603 [mod=SNMP, lvl=INFO] [tid=1875] L2ogreSourceIf last 4: 12.1.6.14
+230428-09:14:11.542671 [mod=SNMP, lvl=WARN] [tid=1875] Instance number 14 are not for Hotspot SSID
+230428-09:14:11.542768 [mod=SNMP, lvl=INFO] [tid=1875] L2ogreSourceIf last 4: 12.1.6.15
+230428-09:14:11.542836 [mod=SNMP, lvl=WARN] [tid=1875] Instance number 15 are not for Hotspot SSID
+230428-09:14:11.542933 [mod=SNMP, lvl=INFO] [tid=1875] L2ogreSourceIf last 4: 12.1.6.16
+230428-09:14:11.543003 [mod=SNMP, lvl=WARN] [tid=1875] Instance number 16 are not for Hotspot SSID
+230428-09:14:11.543125 [mod=SNMP, lvl=INFO] [tid=1875] handleL2ogreBase last 4: 14.1.17.0
+230428-09:14:11.544352 [mod=SNMP, lvl=INFO] [tid=1875] handleL2ogreBase last 4: 14.1.17.0
+230428-09:14:11.546336 [mod=SNMP, lvl=INFO] [tid=1875] handleL2ogreBase last 4: 14.1.18.0
+230428-09:14:11.547783 [mod=SNMP, lvl=INFO] [tid=1875] handleL2ogreBase last 4: 14.1.18.0
+230428-09:14:11.550318 [mod=SNMP, lvl=INFO] [tid=1875] handleL2ogreBase last 4: 14.1.19.0
+230428-09:14:11.551663 [mod=SNMP, lvl=INFO] [tid=1875] handleL2ogreBase last 4: 14.1.19.0
+230428-09:14:11.553739 [mod=SNMP, lvl=INFO] [tid=1875] handleL2ogreBase last 4: 14.1.20.0
+230428-09:14:11.554909 [mod=SNMP, lvl=INFO] [tid=1875] handleL2ogreBase last 4: 14.1.20.0
+230428-09:14:11.562380 [mod=SNMP, lvl=INFO] [tid=1875] RDKB_SNMP : SNMP GET called for param 'Device.ManagementServer.EnableCWMP'
+230428-09:14:11.581059 [mod=SNMP, lvl=INFO] [tid=1875] RDKB_SNMP : SNMP GET SUCCESS for param 'Device.ManagementServer.EnableCWMP'
+
+_________----------------------------------------------------------------------------------_________________________
